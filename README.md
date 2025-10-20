@@ -1,4 +1,4 @@
-# Ava Trading News. Architecture Proposal (Dev Home Assignment)
+## Ava Trading News. Architecture Proposal (Dev Home Assignment)
 
 ## Business use case (recap)
 Centralize and enrich trading news (today used in AvaTradeGo/WebTrader) to serve them on marketing websites/landing pages:
