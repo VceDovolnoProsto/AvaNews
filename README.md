@@ -33,14 +33,6 @@ Centralize and enrich trading news (today used in AvaTradeGo/WebTrader) to serve
 - **Caching (Redis, optional)** - speeds up “latest N distinct by ticker” and hot reads.
 - **Observability (Serilog/OTel, HealthChecks)** - logs, metrics, dependency checks.
 
-**API endpoints:**
-- `[Authorize] GET /api/news` - all news (filters/cursor pagination)
-- `[Authorize] GET /api/news/range?days=n`
-- `[Authorize] GET /api/news/instrument/{symbol}?limit=10`
-- `[Authorize] GET /api/news/search?q=...`
-- `[Authorize] POST /api/subscriptions`
-- `[AllowAnonymous] GET /api/news/latest?limit=5` - latest N **distinct by ticker**
-
 ---
 
 ### Option B. **Event-Driven / Cloud (microservices/serverless)**
